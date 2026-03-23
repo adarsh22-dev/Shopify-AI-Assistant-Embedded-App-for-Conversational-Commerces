@@ -2,8 +2,6 @@
 
 An intelligent, AI-powered shopping assistant designed as a professional-grade Shopify embedded application. This solution leverages Google Gemini and Shopify APIs to provide a seamless conversational interface for product discovery, order management, and personalized customer engagement.
 
----
-
 ## 🧠 Architecture Overview
 
 The system is designed with a clear separation of concerns, ensuring modularity and ease of integration:
@@ -63,10 +61,6 @@ The system is designed with a clear separation of concerns, ensuring modularity 
 - **Lazy-loaded Widget**: Optimized for performance to ensure zero impact on storefront load times.
 - **API Proxying**: Secure handling of Shopify and Gemini API calls through the backend to protect sensitive credentials.
 
-## 🎥 Demo
-
-- **Live URL**: [https://ais-dev-bnbrppid6fcrffestyahpq-48572307059.asia-east1.run.app](https://ais-dev-bnbrppid6fcrffestyahpq-48572307059.asia-east1.run.app)
-
 ## Setup & Configuration
 
 ### Environment Variables
@@ -87,5 +81,4 @@ Declare the following variables in your environment or `.env` file:
 - **Settings**: Navigate to the "Settings" tab in the Admin Panel to customize the AI's behavior and the widget's appearance.
 
 ## License
-MIT
 # Shopify-AI-Assistant-Embedded-App-for-Conversational-Commerces
