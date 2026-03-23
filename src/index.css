@@ -1,0 +1,55 @@
+@import "tailwindcss";
+@import "@shopify/polaris/build/esm/styles.css";
+
+@layer base {
+  :root {
+    --bg-primary: #F6F6F7;
+    --bg-secondary: #FFFFFF;
+    --text-primary: #202223;
+    --text-secondary: #6D7175;
+    --border-color: #E1E3E5;
+  }
+
+  .dark {
+    --bg-primary: #F6F6F7;
+    --bg-secondary: #FFFFFF;
+    --text-primary: #202223;
+    --text-secondary: #6D7175;
+    --border-color: #E1E3E5;
+  }
+
+  body {
+    background-color: var(--bg-primary);
+    color: var(--text-primary);
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+}
+
+@layer utilities {
+  .no-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+  .no-scrollbar {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+
+  .markdown-body {
+    @apply text-sm leading-relaxed;
+  }
+  .markdown-body p {
+    @apply mb-2 last:mb-0;
+  }
+  .markdown-body ul, .markdown-body ol {
+    @apply mb-2 ml-4 list-disc;
+  }
+  .markdown-body li {
+    @apply mb-1;
+  }
+  .markdown-body strong {
+    @apply font-bold text-[#008060];
+  }
+  .markdown-body a {
+    @apply text-[#008060] underline hover:text-[#006e52];
+  }
+}

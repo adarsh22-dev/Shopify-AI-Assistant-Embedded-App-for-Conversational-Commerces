@@ -1,0 +1,27 @@
+{% comment %}
+  CISAI AI Assistant - Shopify Theme Integration
+  Design by Adarsh Singh
+{% endcomment %}
+
+<div id="cisai-chat-root"></div>
+
+<script>
+  window.CISAI_CONFIG = {
+    shop: "{{ shop.permanent_domain }}",
+    customer: {
+      id: "{{ customer.id }}",
+      email: "{{ customer.email }}",
+      name: "{{ customer.first_name }} {{ customer.last_name }}"
+    },
+    template: "{{ template.name }}",
+    product: {% if product %}{
+      id: "{{ product.id }}",
+      title: "{{ product.title | escape }}",
+      price: "{{ product.price | money_without_currency }}",
+      image: "{{ product.featured_image | img_url: '800x800' }}"
+    }{% else %}null{% endif %}
+  };
+</script>
+
+<link rel="stylesheet" href="{{ 'cisai-chat.css' | asset_url }}">
+<script src="{{ 'cisai-chat.js' | asset_url }}" defer="defer"></script>

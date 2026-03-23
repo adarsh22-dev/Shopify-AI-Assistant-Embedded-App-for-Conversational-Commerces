@@ -1,0 +1,19 @@
+/* CISAI Chat Widget Styles */
+#cisai-chat-root {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  z-index: 999999;
+  pointer-events: none;
+}
+
+#cisai-chat-root > * {
+  pointer-events: auto;
+}
+
+@media (max-width: 768px) {
+  #cisai-chat-root {
+    width: 100%;
+    height: 100%;
+  }
+}
