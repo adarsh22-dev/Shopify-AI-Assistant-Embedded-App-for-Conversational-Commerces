@@ -53,3 +53,14 @@
     @apply text-[#008060] underline hover:text-[#006e52];
   }
 }
+
+  
+button.flex-1.sm\:flex-none.flex.items-center.justify-center.gap-2.sm\:gap-3.px-6.sm\:px-8.py-3.sm\:py-4.bg-\[\#008060\].text-white.rounded-2xl.text-base.sm\:text-lg.font-bold.shadow-xl.shadow-emerald-500\/20.hover\:bg-\[\#006e52\].hover\:-translate-y-1.transition-all {
+    padding: 10px;
+    font-size: 9px;
+}
+
+  button.flex-1.sm\:flex-none.flex.items-center.justify-center.gap-2.sm\:gap-3.px-6.sm\:px-8.py-3.sm\:py-4.bg-white.text-\[\#008060\].border-2.border-\[\#008060\].rounded-2xl.text-base.sm\:text-lg.font-bold.shadow-lg.hover\:bg-emerald-50.hover\:-translate-y-1.transition-all {
+ padding: 10px;
+    font-size: 9px;
+  }
