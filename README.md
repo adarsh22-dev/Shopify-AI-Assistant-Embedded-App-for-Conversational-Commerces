@@ -1,4 +1,4 @@
-# Shopify AI Assistant – Embedded App for Conversational Commerce
+# Shopify AI Assistant – Embedded App for Conversational Commerces
 
 An intelligent, AI-powered shopping assistant designed as a professional-grade Shopify embedded application. This solution leverages Google Gemini and Shopify APIs to provide a seamless conversational interface for product discovery, order management, and personalized customer engagement.
 
