@@ -82,3 +82,6 @@ Declare the following variables in your environment or `.env` file:
 
 ## License
 # Shopify-AI-Assistant-Embedded-App-for-Conversational-Commerces
+
+
+<img src="./src/shopify_ai_assistant_architecture.svg" alt="Architecture Diagram" width="stretch"/>
