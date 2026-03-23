@@ -68,7 +68,7 @@ Declare the following variables in your environment or `.env` file:
 - `GEMINI_API_KEY`: Your Google Gemini API key.
 - `SHOPIFY_SHOP_NAME`: Your Shopify store name (e.g., `my-store`).
 - `SHOPIFY_ACCESS_TOKEN`: Your Shopify Admin API access token.
-- `ADMIN_PASSWORD`: Password for accessing the admin dashboard (default: `admin123`).
+- `ADMIN_PASSWORD`: Password for accessing the admin dashboard (default: `admin*****`).
 
 ### Installation & Development
 1. **Install dependencies**: `npm install`
